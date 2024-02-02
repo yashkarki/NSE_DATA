@@ -19,7 +19,7 @@ class Command(BaseCommand):
             data['Date '] = data['Date '].dt.strftime('%Y-%m-%d')
             for _,row in data.iterrows():
                 index, created = StockIndex.objects.get_or_create(
-                    name=index_list[0])
+                    name=index_name)
                 DailyPrice.objects.get_or_create(
                     index=index,
                     date=row['Date '],
