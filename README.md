@@ -81,9 +81,9 @@ Response:{
 
 ## To Run Project Locally
 
-### Navigate to Stock_Yaari_Assignment directory
+### Navigate to NSE_DATA directory
 ```bash
-cd Stock_Yaari_Assignment
+cd NSE_DATA
 
 
 ### To create virtual environment 
